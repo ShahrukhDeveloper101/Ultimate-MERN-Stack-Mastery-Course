@@ -1,0 +1,25 @@
+ 
+p{
+    color: blue;
+}
+ 
+/* .heading2{
+    color: brown;
+}
+#heading{
+    color: chocolate;
+} */
+
+/* h1, h2, h3, h4{
+    color: red;
+} */
+
+.heading1, .heading2, .heading3, .heading4, #heading, h1{
+    /* color:rgb(253, 211, 0); */
+    color: rgb(0, 0, 139);
+    /* background-color: crimson; */
+    font-size: 30px;
+}
+.heading1{
+    font-family: "Roboto Mono", monospace;
+}
