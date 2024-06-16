@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1{
+        color: aqua !important;
+    }
+    #heading{
+        color: red;
+    }
+    .heading{
+        color: green;
+    }
+    h1{
+        color: blue;
+    }
+    *{
+        color: pink;
+    }
+    /* 1 + 10 + 100 + 10 + 1 = 122 */
+    body.body #main .content p{
+        color: green;
+    }
+    body.body #main .content p{
+        color: red;
+    }
+    body.body #main .content p{
+        color: brown;
+    }
+   
+</style>
+<body class="body">
+    <h1 class="heading" id="heading" style="color: brown !important;">This is heading</h1>
+    <div id="main">
+        <div class="content">
+            <p class="content">this is p tag</p>
+        </div>
+    </div>
+</body>
+</html>
