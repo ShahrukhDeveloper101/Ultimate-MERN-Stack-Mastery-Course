@@ -95,7 +95,14 @@ Example:
   <div class="absolute-inside-relative">Absolute inside Relative</div>
 </div>
 
-4. Exercises and Practice:
+4. Difference Between Relative and Absolute Positioning:
+
+Relative Positioning: 
+  An element is positioned relative to its normal position, meaning it can be shifted from where it would normally appear in the document flow. This does not affect the positioning of other elements.
+Absolute Positioning: 
+  An element is removed from the normal document flow and positioned relative to its nearest positioned ancestor or the initial containing block if no ancestor is positioned. This can overlap other elements.
+
+5. Exercises and Practice:
 Exercise 1: Create a layout using relative and absolute positioning.
 Exercise 2: Implement a fixed header that stays at the top of the page when scrolling.
 Exercise 3: Use sticky positioning to keep an element in view within its parent container.
