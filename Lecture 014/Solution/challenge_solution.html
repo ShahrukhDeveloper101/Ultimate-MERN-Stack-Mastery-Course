@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Challenge Solution</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container header{
+        background-color: #4CAF50;
+        height: 80px;
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        z-index: 1;
+    }
+    header ul li{
+        display: inline-block;
+        padding: 30px 0;
+    }
+    header ul li a{
+        color: white;
+        font-weight: 550;
+        text-decoration: none;
+        margin:0 10px;
+        padding: 0 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .sidebar{
+        background-color: rgb(164, 163, 163);
+        width: 230px;
+        height: 100%;
+        color: white;
+        position: fixed;
+        padding: 10px;
+        padding-top: 100px;
+    }
+    .content_area{
+        margin-left: 230px;
+        padding-left: 15px;
+        padding-top: 100px;
+    }
+    .sidebar .first_element{
+        position: absolute;
+        bottom: 20px;
+    }
+</style>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Terms & Condition</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="sidebar">
+            <p class="first_element">This is the first element inside sidebar</p>
+            <p>This is second element inside sidebar</p>
+        </div>
+        <div class="content_area">
+            <h4>Content Area</h4>
+            <img src="./artificial-intelligence-new-technology-science-futuristic-abstract-human-brain-ai-technology-cpu-central-processor-unit-chipset-big-data-machine-learning-cyber-mind-domination-generative-ai-scaled-1.jpg" width="500" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo culpa aspernatur magnam distinctio eius, amet magni ex cumque vero, excepturi saepe ad accusamus quasi sed consequatur veniam obcaecati, alias officia architecto at? Possimus repudiandae, unde temporibus minima dolorum aliquid natus nostrum exercitationem modi nihil velit tenetur atque iusto? Quod, eius!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo culpa aspernatur magnam distinctio eius, amet magni ex cumque vero, excepturi saepe ad accusamus quasi sed consequatur veniam obcaecati, alias officia architecto at? Possimus repudiandae, unde temporibus minima dolorum aliquid natus nostrum exercitationem modi nihil velit tenetur atque iusto? Quod, eius!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo culpa aspernatur magnam distinctio eius, amet magni ex cumque vero, excepturi saepe ad accusamus quasi sed consequatur veniam obcaecati, alias officia architecto at? Possimus repudiandae, unde temporibus minima dolorum aliquid natus nostrum exercitationem modi nihil velit tenetur atque iusto? Quod, eius!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo culpa aspernatur magnam distinctio eius, amet magni ex cumque vero, excepturi saepe ad accusamus quasi sed consequatur veniam obcaecati, alias officia architecto at? Possimus repudiandae, unde temporibus minima dolorum aliquid natus nostrum exercitationem modi nihil velit tenetur atque iusto? Quod, eius!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo culpa aspernatur magnam distinctio eius, amet magni ex cumque vero, excepturi saepe ad accusamus quasi sed consequatur veniam obcaecati, alias officia architecto at? Possimus repudiandae, unde temporibus minima dolorum aliquid natus nostrum exercitationem modi nihil velit tenetur atque iusto? Quod, eius!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo culpa aspernatur magnam distinctio eius, amet magni ex cumque vero, excepturi saepe ad accusamus quasi sed consequatur veniam obcaecati, alias officia architecto at? Possimus repudiandae, unde temporibus minima dolorum aliquid natus nostrum exercitationem modi nihil velit tenetur atque iusto? Quod, eius!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo culpa aspernatur magnam distinctio eius, amet magni ex cumque vero, excepturi saepe ad accusamus quasi sed consequatur veniam obcaecati, alias officia architecto at? Possimus repudiandae, unde temporibus minima dolorum aliquid natus nostrum exercitationem modi nihil velit tenetur atque iusto? Quod, eius!</p>
+        </div>
+    </div>
+</body>
+</html>
