@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox - CSS</title>
+</head>
+<style>
+    .container {
+        display: flex;
+        border: 2px solid red;
+        padding: 10px;
+        height: 400px;
+        flex-direction: column;
+        /* main axis */
+        justify-content: center; 
+        /* cross axis */
+        align-items:end; 
+    }
+
+    .item {
+        background-color: lightblue;
+        margin: 5px;
+        height: 150px;
+        width: 300px;
+        padding: 5px;
+        /* order:6; */
+        /* flex-grow: 1; */
+        align-self: flex-start;
+        
+    }
+    .container2 {
+        margin-top: 20px;
+        display: flex;
+        border: 2px solid red;
+        /* padding: 10px; */
+  
+        height: 400px;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        /* align-content:space-around; */
+        align-items: center;
+    }
+    .container3 {
+        margin-top: 20px;
+        display: flex;
+        border: 2px solid red;
+        padding: 10px;
+        height: 100px;
+
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .item3{
+        /* order: 5;
+        flex-grow: 15; */
+        /* flex-basis: 700px; */
+        align-self: flex-start;
+
+        
+    }
+    .item2{
+        /* order: 7; */
+        align-self: flex-end;
+    }
+    .item4{
+        align-self: flex-end;
+
+    }
+</style>
+
+<body>
+    <h4>Space Evenly</h4>
+    <div class="container">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+        <div class="item">Item 5</div>
+    </div>
+
+    <h4>Space Around</h4>
+    <div class="container2">
+        <div class="item item1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste neque magnam necessitatibus cumque ad, totam laudantium distinctio optio facilis. Dolore minus commodi sed consectetur optio fugiat debitis deserunt, quis obcaecati! 1111111111111111</div>
+        <div class="item item2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste neque magnam necessitatibus cumque ad, totam laudantium distinctio optio facilis. Dolore minus commodi sed consectetur optio fugiat debitis deserunt, quis obcaecati! 22222222222222222222</div>
+        <div class="item item3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste neque magnam necessitatibus cumque ad, totam laudantium distinctio optio facilis. Dolore minus commodi sed consectetur optio fugiat debitis deserunt, quis obcaecati! 3333333333333333333</div>
+        <div class="item item4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste neque magnam necessitatibus cumque ad, totam laudantium distinctio optio facilis. Dolore minus commodi sed consectetur optio fugiat debitis deserunt, quis obcaecati! 444444444444444444444</div>
+        
+         
+    </div>
+
+    <!-- <h4>Space Between</h4>
+    <div class="container3">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+        <div class="item">Item 5</div>
+    </div> -->
+</body>
+
+</html>
