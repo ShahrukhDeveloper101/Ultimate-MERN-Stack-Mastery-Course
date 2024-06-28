@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    font-size: 10px;
+}
+.container{
+    background-color: #f48026;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card_area{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.card{
+    background: #ffffff;
+    margin: 0 1rem;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.card .card_header{
+    background-color: #0d68c3;
+    height: 100px;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card .card_header i{
+    font-size: 3rem;
+    color: white;
+
+}
+.card .card_body{
+    padding: 1.5rem 0;
+}
+.card .card_body .card_body_inner{
+    display: flex;
+    justify-content: space-between;
+}
+.card .card_body .card_body_inner h3{
+    font-size: 1.85rem;
+    margin: .5rem 0;
+}
+.card .card_body .card_body_inner p{
+    font-size: 1.65rem;
+    color: grey;
+    margin: .5rem 0;
+}
+.card .card_body .card_body_inner .left_area{
+    text-align: start;
+}
+.card .card_body .card_body_inner .right_area{
+    text-align: end;
+}
+.card .card_body .full_area p{
+    font-size: 1.6rem;
+    padding: .8rem 0 ;
+}
+.card .card_footer button{
+    background-color: #007bff;
+    width: 100%;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+.card .card_footer button:hover{
+    background-color: #0d68c3;
+}
