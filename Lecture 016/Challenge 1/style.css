@@ -2,56 +2,48 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 html{
     font-size: 10px;
 }
-body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+.container{
     background-color: #c9f31d;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
-.container {
+.box_area{
     display: flex;
 }
-
-.box {
-    background: #fff;
-    padding: 2rem;
-    width: 170px;
-    border-radius: 1rem;
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
-    text-align: center;
+.box_area .box{
+    background-color: white;
+    padding: 1rem;
+    border-radius: .7rem;
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    width: 17rem;
     margin: 0 2rem;
+    height: 9rem;
 }
-
-.box i {
-   font-size: 4rem;
+.box_area .box i{
+    font-size: 4rem;
 }
-
-.box span {
+.box_area .box span{
     font-size: 2rem;
-    color: #333;
+    text-align: center;
 }
-
-.box i.fa-stack-overflow{
-    color: #F47F24;
+i.fa-stack-overflow{
+    color: #f48026;
 }
-.box i.fa-github{
-    color: #24292E;
+i.fa-github{
+    color: #24292e;
 }
-.box i.fa-linkedin{
-    color: #0a66c2;
+i.fa-linkedin{
+    color: #0d68c3;
 }
-.box i.fa-youtube{
-    color: #FF0000;
+i.fa-youtube{
+    color: #ff0000;
 }
