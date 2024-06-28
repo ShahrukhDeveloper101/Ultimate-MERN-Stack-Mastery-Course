@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #c9f31d;
+}
+
+.container {
+    display: flex;
+}
+
+.box {
+    background: #fff;
+    padding: 2rem;
+    width: 170px;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 2rem;
+}
+
+.box i {
+   font-size: 4rem;
+}
+
+.box span {
+    font-size: 2rem;
+    color: #333;
+}
+
+.box i.fa-stack-overflow{
+    color: #F47F24;
+}
+.box i.fa-github{
+    color: #24292E;
+}
+.box i.fa-linkedin{
+    color: #0a66c2;
+}
+.box i.fa-youtube{
+    color: #FF0000;
+}
