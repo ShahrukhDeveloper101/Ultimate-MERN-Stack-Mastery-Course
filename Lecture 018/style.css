@@ -1,0 +1,43 @@
+.container{
+    height: 100vh;
+    background-color: lightblue;
+}
+h1{
+    font-size: 60px;
+    margin: 0;
+}
+ 
+/* @media (min-width: 768px) and (max-width:992px){  
+    .container{
+        background-color: aqua;
+    }
+} */
+/* @media (orientation: portrait){  
+    .container{
+        background-color: aqua;
+    }
+} */
+@media (max-width:608px){
+    .sidebar{
+        display: none;
+    }
+    h1{
+        font-size: 50px;
+    }
+}
+@media (max-width:508px){
+    h1{
+        font-size: 40px;
+    }
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 270px;
+    background-color: red;
+
+}
+ 
