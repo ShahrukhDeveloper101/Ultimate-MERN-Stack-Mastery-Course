@@ -1,0 +1,13 @@
+button{
+    color: yellowgreen;
+    background-color: black;
+    transition: .4s linear;
+    
+
+}
+button:hover{
+    color: white;
+    background-color: red;
+    padding: 10px;
+
+}
