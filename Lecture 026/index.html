@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <style>
+    .accordion-item{
+      margin: 10px 0;
+    }
+    .accordion-button{
+      background-color: lightgreen !important;
+      color: white !important;
+      box-shadow: none !important;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <h1 class="pt-3 mb-4 text-center text-warning">Bootstrap Accordion</h1>
+      <div class="accordion" id="accordionNew">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Which positioning value will position an element relative to its nearest positioned ancestor?
+            </button>
+          </h2>
+          <div class="accordion-collapse collapse " id="collapseOne" aria-labelledby="headingOne" >
+            <div class="accordion-body">
+              When you set an element's position to absolute, it positions the element relative to its nearest positioned ancestor. An ancestor element is considered <strong> positioned</strong>  if its position property is set to relative, absolute, fixed, or sticky.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+              What is the default value of the flex-direction property?
+            </button>
+          </h2>
+          <div class="accordion-collapse collapse show" id="collapseTwo" aria-labelledby="headingTwo"  >
+            <div class="accordion-body">
+              The default value of the flex-direction property in CSS is <strong> row</strong> . This means that items within a flex container are laid out along the main axis in the direction of the inline axis of the writing mode.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+              How do you select an element with an id of "header" in CSS?
+            </button>
+          </h2>
+          <div class="accordion-collapse collapse" id="collapseThree" aria-labelledby="headingThree" >
+            <div class="accordion-body">
+              In CSS, the <strong>#</strong> symbol is used to select an element by its id attribute. Id selectors are unique and apply styles to the single element with the matching id.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+              What is the main difference between inline and block-level elements?
+            </button>
+          </h2>
+          <div class="accordion-collapse collapse" id="collapseFour" aria-labelledby="headingFour" >
+            <div class="accordion-body">
+              Block-level elements <strong> (like <div>, <p>, <h1>-<h6>, etc.)</strong>  typically start on a new line and take up the full width available to them by default. They can also contain other block-level and inline elements.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFive">
+            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+              Which selector has the highest specificity?
+            </button>
+          </h2>
+          <div class="accordion-collapse collapse" id="collapseFive" aria-labelledby="headingFive" >
+            <div class="accordion-body">
+              ID selector has the highest specificity because it targets a specific element based on its unique ID attribute <strong> #example-id</strong> . It is more specific than class selectors, element selectors, or universal selectors.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingSix">
+            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+              Which pseudo-element is used to insert content after an element's content?
+            </button>
+          </h2>
+          <div class="accordion-collapse collapse" id="collapseSix" aria-labelledby="headingSix" >
+            <div class="accordion-body">
+            <strong> ::after</strong>  is the CSS pseudo-element used to insert content after the content of an element. It allows you to add additional content that is rendered after the actual content of the element.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
